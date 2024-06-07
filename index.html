@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h2>Formulario</h2>
+    <form id="formulario">
+        <label for="Nome_completo">Nome Completo</label>
+        <input type="text" id="nome_completo">
+        <br>
+        <label for="Matricula">Matricula</label>
+        <input type="text" id="matricula">
+        <br>
+        <label for="Nota_1">Nota 1°</label>
+        <input type="number" name="Nota_1" id="Nota_1" min="0" max="10">
+        <br>
+        <label for="Nota_2">Nota 2°</label>
+        <input type="number" name="Nota_2" id="Nota_2" min="0" max="10">
+        <br>
+        <button type="button" onclick="criarTabela()">Enviar</button>
+    </form>
+
+    <h2>tabela</h2>
+    <form id="tabela"></form>
+
+    <footer>Create By - Querem Pinheiro | 2024 </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
